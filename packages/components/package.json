@@ -1,10 +1,12 @@
 {
   "name": "@ht/components",
   "version": "0.0.1",
-  "private": true,
   "main": "index.ts",
   "module": "index.ts",
   "peerDependencies": {
     "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "vite": "^4.4.5"
   }
 }
