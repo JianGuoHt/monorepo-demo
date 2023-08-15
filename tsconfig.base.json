@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "ES2020",
+    "module": "ESNext",
+    "baseUrl": ".",
+    "sourceMap": false,
+    "allowJs": false,
+
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "removeComments": false,
+    "rootDir": ".",
+    "types": [],
+    "paths": {
+      "@ht/*": ["packages/*"]
+    },
+
+    /* Bundler mode */
+    // "moduleResolution": "node",
+    // "resolveJsonModule": true,
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    // 报告函数中未使用参数的错误
+    "noUnusedParameters": true,
+    // 报告 switch 语句中失败案例的错误
+    "noFallthroughCasesInSwitch": true
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "@ht/eslint-config",
+  "version": "0.0.1",
+  "description": "Vue3 EsLint Config",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": "^8.46.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.3.0",
+    "@typescript-eslint/parser": "^6.3.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-define-config": "^1.23.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.28.0",
+    "eslint-plugin-jsonc": "^2.9.0",
+    "eslint-plugin-markdown": "^3.0.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "jsonc-eslint-parser": "^2.3.0",
+    "prettier": "^3.0.1",
+    "typescript": "^5.1.6"
+  }
+}
